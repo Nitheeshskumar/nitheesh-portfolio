@@ -1,11 +1,16 @@
 {
   "files": {
     "main.css": "/nitheesh-portfolio/static/css/main.347bbdf5.css",
-    "main.js": "/nitheesh-portfolio/static/js/main.4e483bdf.js",
+    "main.js": "/nitheesh-portfolio/static/js/main.4984b5f0.js",
+    "static/media/bakerbeelogo.png": "/nitheesh-portfolio/static/media/bakerbeelogo.44dcb4119100b4f749d0.png",
+    "static/media/profilepic.jpeg": "/nitheesh-portfolio/static/media/profilepic.e437fb1056ed4a492fef.jpeg",
+    "static/media/gmappluginlogo.png": "/nitheesh-portfolio/static/media/gmappluginlogo.1486de9e3b9ef14b036f.png",
+    "static/media/pettamologo.png": "/nitheesh-portfolio/static/media/pettamologo.04728578120268523da8.png",
+    "static/media/testgenrlogo.png": "/nitheesh-portfolio/static/media/testgenrlogo.a1b76d89fa54e289122e.png",
     "index.html": "/nitheesh-portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.347bbdf5.css",
-    "static/js/main.4e483bdf.js"
+    "static/js/main.4984b5f0.js"
   ]
 }
