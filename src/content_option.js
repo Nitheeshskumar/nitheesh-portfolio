@@ -1,3 +1,9 @@
+import Testgenr from "./assets/images/testgenrlogo.png";
+import pettamo from "./assets/images/pettamologo.png";
+import gmaps from "./assets/images/gmappluginlogo.png";
+import bakerbees from "./assets/images/bakerbeelogo.png";
+import profilepic from "./assets/images/profilepic.jpeg";
+
 const logotext = "Nitheesh";
 const meta = {
   title: "Nitheesh S Kumar",
@@ -5,7 +11,7 @@ const meta = {
 };
 
 const introdata = {
-  title: "I’m Nitheesh S KUmar",
+  title: "I’m Nitheesh S Kumar",
   animated: {
     first: "I love coding",
     second: "I design and develop Webapps",
@@ -13,7 +19,7 @@ const introdata = {
   },
   description:
     "Senior Software Engineer passionate about building scalable and efficient solutions and enjoy working on projects that challenge me to think outside the box",
-  your_img_url: "src/assets/images/profilepic.jpeg",
+  your_img_url: profilepic,
 };
 
 const dataabout = {
@@ -79,24 +85,24 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "src/assets/images/testgenrlogo.png",
+    img: Testgenr,
     description: "Automatic testcase generator for jira stories- Atlassian Marketplace app.",
-    link: "#",
+    link: "https://github.com/Nitheeshskumar/TestGenR-ai",
   },
   {
-    img: "src/assets/images/gmapspluginlogo.png",
+    img: gmaps,
     description: "React wrapper for Google Maps javascript sdk with utility functions.",
-    link: "#",
+    link: "https://github.com/Nitheeshskumar/react-gmap-plugin",
   },
   {
-    img: "src/assets/images/pettamologo.png",
+    img: pettamo,
     description: "Petcare solutions marketplace for providers and customers.",
-    link: "#",
+    link: "https://github.com/Nitheeshskumar/pettamo-mvp",
   },
   {
-    img: "src/assets/images/bakerbeeslogo.png",
+    img: bakerbees,
     description: "Ecommerce app (in Vue js) for Multiple categories under same business.",
-    link: "#",
+    link: "https://github.com/Nitheeshskumar/BakerbeeCart",
   },
 ];
 
