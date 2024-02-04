@@ -23,9 +23,9 @@ const meta = {
 const introdata = {
   title: "I’m Nitheesh S Kumar",
   animated: {
-    first: "I love coding",
+    first: "I love trekking",
     second: "I design and develop Webapps",
-    third: "I love cloud",
+    third: "I architect on cloud",
   },
   description:
     "Senior Software Engineer passionate about building scalable and efficient solutions. Enjoy working on projects that challenge me to think outside the box",
