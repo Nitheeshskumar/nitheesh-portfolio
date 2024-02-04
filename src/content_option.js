@@ -3,6 +3,16 @@ import pettamo from "./assets/images/pettamologo.png";
 import gmaps from "./assets/images/gmappluginlogo.png";
 import bakerbees from "./assets/images/bakerbeelogo.png";
 import profilepic from "./assets/images/profilepic.jpeg";
+import awssolution from "./assets/images/solutionsarchitect.png";
+import gcpleader from "./assets/images/googlecloud.png";
+import positivepsy from "./assets/images/PositivePsychology.png";
+import gitlabteam from "./assets/images/gitlab.png";
+import others from "./assets/images/others.png";
+import reacticon from "./assets/images/reacticon.png";
+import gcpicon from "./assets/images/gcpicon.png";
+import awsicon from "./assets/images/awslogo.png";
+import javascripticon from "./assets/images/javascript.png";
+import nodejsicon from "./assets/images/nodejs.png";
 
 const logotext = "Nitheesh";
 const meta = {
@@ -18,8 +28,9 @@ const introdata = {
     third: "I love cloud",
   },
   description:
-    "Senior Software Engineer passionate about building scalable and efficient solutions and enjoy working on projects that challenge me to think outside the box",
-  your_img_url: profilepic,
+    "Senior Software Engineer passionate about building scalable and efficient solutions. Enjoy working on projects that challenge me to think outside the box",
+  profie_pic: profilepic,
+  skill_icons: [reacticon, gcpicon, awsicon, javascripticon, nodejsicon],
 };
 
 const dataabout = {
@@ -105,7 +116,48 @@ const dataportfolio = [
     link: "https://github.com/Nitheeshskumar/BakerbeeCart",
   },
 ];
+const certifications = [
+  {
+    img: awssolution,
+    description: "Showcases knowledge and working skills across wide range of AWS services",
+    link: "https://www.credly.com/badges/7a234295-bad0-4982-9deb-1e37491d3200/public_url",
+  },
+  {
+    img: gcpleader,
+    description: "Foundational knowledge on Google Cloud services",
+    link: "https://www.credential.net/e5552aa3-3d6b-4d58-9747-a87c6cb9418d",
+  },
+  {
+    img: gitlabteam,
+    description: "Kowledge on federation of ownership in an agile team",
+    link: "https://university.gitlab.com/c/8v7u1F5IQqCye7KLzlu7Ew",
+  },
+  {
+    img: positivepsy,
+    description: "Not optimistic always, but gives attention to positive things than worrying about negatives",
+    link: "https://github.com/Nitheeshskumar/BakerbeeCart",
+  },
+  {
+    img: others,
+    description: "Others: For my knowledge hunger",
+    link: "https://www.linkedin.com/in/nitheesh-s-kumar/details/certifications/",
+  },
+];
 
+const otherAccomplishments = [
+  "Passed AWS Machine Learning Foundations scholarship from Udacity",
+  "Six-sigma white belt certification from Aveta Business Institute",
+  "Oracle Cloud Infrastructure Foundations Associate certfication",
+  "Passed Blockchain Foundation program from Kerala Blockchain Academy",
+  "Completed Online course on Machine Learning from Stanford University",
+  "Received two Sponsor prize in Developer week Europe hackathon 2022: from LinearB and Agora.ai- Designed a petcare solution with live teleconsultation from vets",
+  "Finalist in HackKp, hackathon by Kerala Police and Cyberdom: Designed a paring space detection software using computer vision",
+  "Second prize in Astradb hackathon 2022",
+  "Participated in IPL hackathon by IIT Madras: Prediciting the IPL winner from past data sets",
+  "Various recognition from Envestnet including Envestnet Security Champion award, Star of quarter, WOW award consecutively for 3 quarters",
+  "Conducted two bootcamps in React",
+  "Took session for AWS community memebers in Africa as part of Go Cloud Architects program",
+];
 const contactConfig = {
   YOUR_EMAIL: "nitheesh.s.k1710@gmail.com",
   YOUR_FONE: "+91 9746485532",
@@ -135,4 +187,6 @@ export {
   contactConfig,
   socialprofils,
   logotext,
+  certifications,
+  otherAccomplishments,
 };
