@@ -28,7 +28,7 @@ const introdata = {
     third: "I architect on cloud",
   },
   description:
-    "Senior Software Engineer passionate about building scalable and efficient solutions. Enjoy working on projects that challenge me to think outside the box",
+    "Lead Software Engineer passionate about building scalable and efficient solutions. Enjoy working on projects that challenge me to think outside the box",
   profie_pic: profilepic,
   skill_icons: [reacticon, gcpicon, awsicon, javascripticon, nodejsicon],
 };
