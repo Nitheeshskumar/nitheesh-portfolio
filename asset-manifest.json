@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nitheesh-portfolio/static/css/main.8599313e.css",
-    "main.js": "/nitheesh-portfolio/static/js/main.20e81ff8.js",
+    "main.js": "/nitheesh-portfolio/static/js/main.25b5c85b.js",
     "static/media/bakerbeelogo.png": "/nitheesh-portfolio/static/media/bakerbeelogo.44dcb4119100b4f749d0.png",
     "static/media/profilepic.jpeg": "/nitheesh-portfolio/static/media/profilepic.e437fb1056ed4a492fef.jpeg",
     "static/media/solutionsarchitect.png": "/nitheesh-portfolio/static/media/solutionsarchitect.2f700af41e0006979be3.png",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.8599313e.css",
-    "static/js/main.20e81ff8.js"
+    "static/js/main.25b5c85b.js"
   ]
 }
