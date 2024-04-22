@@ -1,4 +1,5 @@
 import Testgenr from "./assets/images/testgenrlogo.png";
+import FitPal from "./assets/images/fitpal.png";
 import pettamo from "./assets/images/pettamologo.png";
 import gmaps from "./assets/images/gmappluginlogo.png";
 import bakerbees from "./assets/images/bakerbeelogo.png";
@@ -95,6 +96,11 @@ const services = [
 ];
 
 const dataportfolio = [
+  {
+    img: FitPal,
+    description: "Gen AI app based on AWS Partyrock for providing custom routines for gym beginners",
+    link: "https://devpost.com/software/fitpal-hjolm7",
+  },
   {
     img: Testgenr,
     description: "Automatic testcase generator for jira stories- Atlassian Marketplace app.",
